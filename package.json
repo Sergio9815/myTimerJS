@@ -1,0 +1,23 @@
+{
+  "name": "@sagb_24/mytimerjs",
+  "version": "1.0.0",
+  "description": "Simple timer developed in Javascript.",
+  "main": "timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergio9815/myTimerJS.git"
+  },
+  "keywords": [
+    "Timer",
+    "JS"
+  ],
+  "author": "Sergio González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sergio9815/myTimerJS/issues"
+  },
+  "homepage": "https://github.com/Sergio9815/myTimerJS#readme"
+}
