@@ -10,30 +10,30 @@ Utilice el administrador de paquetes de node [npm](https://www.npmjs.com/) para 
 npm install @sagb_24/mytimerjs 
 ```
 
-## Empezando
+## Primeros pasos
 
-Establezca un id en el contenedor donde se mostrará el temporizador.
+1. Establezca un id en el contenedor donde se mostrará el temporizador.
 
 ```html
 <div id="timerJS">00:00:00</div>
 ```
+2. Coloque el tipo "module" al enlace de su archivo externo de JavaScript.
 
-## Código Js
-- En su archivo Js, importe la clase Timer que pertenece al módulo mytimerjs.
+```html
+<script type="module" src="./index.js"></script>
+```
+
+## En el código JS
+- Importe la clase "Timer" mediante una ruta relativa a su archivo de JavaScript principal.
 - Luego debe instanciar la clase pasándole como parámetro el id del contenedor que estableció en el HTML.
 - Finalmente llamaremos al método start () para iniciar el temporizador.
 
 ```javascript
 import Timer from "../node_modules/@sagb_24/mytimerjs/lib/myTimer.js";
 
-const play = document.querySelector('#btn-Start')
+const init = new Timer({
+  idContainer: 'time',  //USE HTML ELEMENT ID
+});
 
-play.addEventListener('click', (e) => {
-
-	  const init = new Timer({
-		idContainer: 'timerJS',  //USE HTML ELEMENT ID
-	  });
- 	 init.start();
-	 
-})
+init.start(); //CALL TO MAIN FUNCTION
 ```
