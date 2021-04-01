@@ -1,4 +1,4 @@
-## MyTimerJS
+## MyTimerJS ⏱
 
 En este proyecto se desarrolló un temporizador usando Javascript; Esto con el fin de poder implementar fácilmente este elemento en futuros proyectos. Y a su vez, aprender a publicar proyectos de código abierto en NPM.
 
@@ -22,7 +22,7 @@ npm install @sagb_24/mytimerjs
 ```html
 <script type="module" src="./index.js"></script>
 ```
-3. No olvide ejecutar su código desde un servidor como: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 💘.
+3. No olvide ejecutar su código desde un servidor local.
 
 ## En el código JS
 - Importe la clase "Timer" mediante una ruta relativa a su archivo de JavaScript principal.
