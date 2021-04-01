@@ -1,27 +1,27 @@
 ## MyTimerJS
 
-In this project a timer was developed using Javascript. This in order to be able to easily implement this element in future projects. And at the same time, learn how to publish open source projects in NPM.
+En este proyecto se desarrolló un temporizador usando Javascript; Esto con el fin de poder implementar fácilmente este elemento en futuros proyectos. Y a su vez, aprender a publicar proyectos de código abierto en NPM.
 
-## Installation
+## Instalación
 
-Use the package manager of node [npm](https://www.npmjs.com/) to install myTimerJs.
+Utilice el administrador de paquetes de node [npm](https://www.npmjs.com/) para instalar myTimerJs.
 
 ```bash
 npm install @sagb_24/mytimerjs 
 ```
 
-## Getting Started
+## Empezando
 
-Set the id for the timer container.
+Establezca un id en el contenedor donde se mostrará el temporizador.
 
 ```html
 <div id="timerJS">00:00:00</div>
 ```
 
-## Javascript　
-- In your Js file, import the Timer class that belongs to the mytimerjs module.
-- Then we will only have to instantiate the class passing it as a parameter the id of the container established in the HTML.
-- Finally we will call the start () method to start the timer.
+## Código Js
+- En su archivo Js, importe la clase Timer que pertenece al módulo mytimerjs.
+- Luego debe instanciar la clase pasándole como parámetro el id del contenedor que estableció en el HTML.
+- Finalmente llamaremos al método start () para iniciar el temporizador.
 
 ```javascript
 import Timer from "../node_modules/@sagb_24/mytimerjs/lib/myTimer.js";
