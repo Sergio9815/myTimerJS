@@ -22,6 +22,7 @@ npm install @sagb_24/mytimerjs
 ```html
 <script type="module" src="./index.js"></script>
 ```
+3. No olvide ejecutar su código desde un servidor como: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 💘.
 
 ## En el código JS
 - Importe la clase "Timer" mediante una ruta relativa a su archivo de JavaScript principal.
@@ -32,7 +33,7 @@ npm install @sagb_24/mytimerjs
 import Timer from "../node_modules/@sagb_24/mytimerjs/lib/myTimer.js";
 
 const init = new Timer({
-  idContainer: 'time',  //USE HTML ELEMENT ID
+  idContainer: 'timerJS',  //USE HTML ELEMENT ID
 });
 
 init.start(); //CALL TO MAIN FUNCTION
