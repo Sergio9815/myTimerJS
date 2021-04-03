@@ -26,7 +26,7 @@ npm install @sagb_24/mytimerjs
 
 ## En el código JS
 - Importe la clase "Timer" mediante una ruta relativa a su archivo de JavaScript principal.
-- Luego debe instanciar la clase pasándole como parámetro el id del contenedor que estableció en el HTML.
+- Luego debe instanciar la clase pasándole como parámetro el id del contenedor que estableció en el HTML y el formato que desea utilizar.
 - Finalmente llamaremos al método start () para iniciar el temporizador.
 
 ```javascript
