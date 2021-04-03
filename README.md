@@ -33,8 +33,13 @@ npm install @sagb_24/mytimerjs
 import Timer from "../node_modules/@sagb_24/mytimerjs/lib/myTimer.js";
 
 const init = new Timer({
-  idContainer: 'timerJS',  //USE HTML ELEMENT ID
+  // USE HTML ELEMENT ID
+  idContainer: 'timerJS',  
+  // THE TYPE OF TIMER TO USE IS INDICATED
+  // HOURS:MINUTES:SECONDS | 00:00:00
+  // MINUTES:SECONDS | 00:00
+  timerFormat: '00:00:00' 
 });
 
-init.start(); //CALL TO MAIN FUNCTION
+init.start(); //CALL TO START FUNCTION
 ```
