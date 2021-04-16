@@ -30,7 +30,7 @@ npm install @sagb_24/mytimerjs
 - Finalmente llamaremos a las funciones básicas del temporizador.
 
 ```javascript
-import Timer from "../node_modules/@sagb_24/mytimerjs/lib/myTimer.js";
+import Timer from "../node_modules/@sagb_24/mytimerjs/dist/mytimer.min.js";
 
 const init = new Timer({
   // USE HTML ELEMENT ID
