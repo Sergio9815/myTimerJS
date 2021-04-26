@@ -8,6 +8,8 @@ Utilice el administrador de paquetes de node [npm](https://www.npmjs.com/) para 
 
 ```bash
 npm install @sagb_24/mytimerjs 
+or
+yarn add @sagb_24/mytimerjs
 ```
 
 ## Primeros pasos
