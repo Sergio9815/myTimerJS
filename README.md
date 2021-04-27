@@ -1,5 +1,6 @@
 ## MyTimerJS ⏱
 
+![Screenshot (31)](https://user-images.githubusercontent.com/37419848/116169199-c7767a80-a6c9-11eb-90ff-3ca32598b67d.png)
 En este proyecto se desarrolló un temporizador usando Javascript; Esto con el fin de poder implementar fácilmente este elemento en futuros proyectos. Y a su vez, aprender a publicar proyectos de código abierto en NPM.
 
 ## Instalación
@@ -48,3 +49,7 @@ init.pause() // METHOD THAT PAUSES THE TIMER
 init.stop(); // METHOD THAT STOPS THE TIMER
 init.getCurrentTime(); // METHOD THAT RETURNS LAST STORED VALUE OF THE TIMER
 ```
+## Demostración
+
+- En el siguiente link puede acceder el sitio de [demostración](https://my-timer-demo.vercel.app/) 🔮 donde podrá utilizar las funciones básicas de myTimerJS.
+- También puede clonar el [repositorio de demostración](https://github.com/Sergio9815/my-timer-demo) y verificar la configuración inicial.
