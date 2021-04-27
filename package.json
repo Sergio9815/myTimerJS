@@ -1,6 +1,6 @@
 {
   "name": "@sagb_24/mytimerjs",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Simple timer developed in Javascript.",
   "directories": {
     "src": "./src"
