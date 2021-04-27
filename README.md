@@ -5,7 +5,7 @@ En este proyecto se desarrolló un temporizador usando Javascript; Esto con el f
 
 ## Instalación
 
-Utilice el administrador de paquetes de node [npm](https://www.npmjs.com/) para instalar myTimerJs.
+Utilice el administrador de paquetes de JavaScript [npm](https://www.npmjs.com/) ó [yarn](https://yarnpkg.com/) para realizar la instalación.
 
 ```bash
 npm install @sagb_24/mytimerjs 
