@@ -5,7 +5,7 @@ In this project a timer was developed using Javascript; This in order to be able
 
 ## Installation
 
-Use the JavaScript package manager [npm] (https://www.npmjs.com/) or [yarn] (https://yarnpkg.com/) to install.
+Use the JavaScript package manager [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) to install.
 
 ```bash
 npm install @sagb_24/mytimerjs 
@@ -51,5 +51,5 @@ init.getCurrentTime(); // METHOD THAT RETURNS LAST STORED VALUE OF THE TIMER
 ```
 ## Sample project
 
-- In the following link you can access the [demo] site (https://my-timer-demo.vercel.app/) 🔮 where you can use the basic functions of myTimerJS.
-- You can also clone the [demo repository] (https://github.com/Sergio9815/my-timer-demo) and check the initial configuration.
+- In the following link you can access the [demo site](https://my-timer-demo.vercel.app/) 🔮 where you can use the basic functions of myTimerJS.
+- You can also clone the [demo repository](https://github.com/Sergio9815/my-timer-demo) and check the initial configuration.
