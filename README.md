@@ -49,7 +49,7 @@ init.pause() // METHOD THAT PAUSES THE TIMER
 init.stop(); // METHOD THAT STOPS THE TIMER
 init.getCurrentTime(); // METHOD THAT RETURNS LAST STORED VALUE OF THE TIMER
 ```
-## Demostración
+## Sample project
 
 - In the following link you can access the [demo] site (https://my-timer-demo.vercel.app/) 🔮 where you can use the basic functions of myTimerJS.
 - You can also clone the [demo repository] (https://github.com/Sergio9815/my-timer-demo) and check the initial configuration.
