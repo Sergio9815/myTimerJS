@@ -1,11 +1,11 @@
 ## MyTimerJS ⏱
 
 ![Screenshot (31)](https://user-images.githubusercontent.com/37419848/116169199-c7767a80-a6c9-11eb-90ff-3ca32598b67d.png)
-En este proyecto se desarrolló un temporizador usando Javascript; Esto con el fin de poder implementar fácilmente este elemento en futuros proyectos. Y a su vez, aprender a publicar proyectos de código abierto en NPM.
+In this project a timer was developed using Javascript; This in order to be able to easily implement this element in future projects. And in turn, learn to publish open source projects in NPM.
 
-## Instalación
+## Installation
 
-Utilice el administrador de paquetes de JavaScript [npm](https://www.npmjs.com/) ó [yarn](https://yarnpkg.com/) para realizar la instalación.
+Use the JavaScript package manager [npm] (https://www.npmjs.com/) or [yarn] (https://yarnpkg.com/) to install.
 
 ```bash
 npm install @sagb_24/mytimerjs 
@@ -13,24 +13,24 @@ or
 yarn add @sagb_24/mytimerjs
 ```
 
-## Primeros pasos
+## Getting started
 
-1. Establezca un id en el contenedor donde se mostrará el temporizador.
+1. Set an id in the container where the timer will be displayed.
 
 ```html
 <div id="timerJS">00:00:00</div>
 ```
-2. Coloque el tipo "module" al enlace de su archivo externo de JavaScript.
+2. Put the type "module" in the link of your external JavaScript file.
 
 ```html
 <script type="module" src="./index.js"></script>
 ```
-3. No olvide ejecutar su código desde un servidor local.
+3. Don't forget to run your code from a local server.
 
-## En el código JS
-- Importe la clase "Timer" mediante una ruta relativa a su archivo de JavaScript principal.
-- Luego debe instanciar la clase pasándole como parámetro el id del contenedor que estableció en el HTML y el formato que desea utilizar.
-- Finalmente llamaremos a las funciones básicas del temporizador.
+## In your JavaScript file
+- Import the "Timer" class using a relative path to your main JavaScript file.
+- Then you must instantiate the class passing it as a parameter the id of the container that you set in the HTML and the format you want to use.
+- Finally we will call the basic functions of the timer.
 
 ```javascript
 import Timer from "../node_modules/@sagb_24/mytimerjs/dist/mytimer.min.js";
@@ -51,5 +51,5 @@ init.getCurrentTime(); // METHOD THAT RETURNS LAST STORED VALUE OF THE TIMER
 ```
 ## Demostración
 
-- En el siguiente link puede acceder el sitio de [demostración](https://my-timer-demo.vercel.app/) 🔮 donde podrá utilizar las funciones básicas de myTimerJS.
-- También puede clonar el [repositorio de demostración](https://github.com/Sergio9815/my-timer-demo) y verificar la configuración inicial.
+- In the following link you can access the [demo] site (https://my-timer-demo.vercel.app/) 🔮 where you can use the basic functions of myTimerJS.
+- You can also clone the [demo repository] (https://github.com/Sergio9815/my-timer-demo) and check the initial configuration.
